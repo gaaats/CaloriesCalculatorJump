@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_colour_"
+    tools:context=".SettingsFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_settings"
+        style="@style/text_settings_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/settings_text"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+    <ImageView
+        android:id="@+id/btn_img_exit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_baseline_close_24"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
+        app:layout_constraintDimensionRatio="1,1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_music"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/music"
+        android:textAllCaps="true"
+        android:textColor="@color/add_colour_the_most_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/seekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title_about_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:text="@string/about"
+        android:textColor="@color/add_colour_the_most_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/tv_about_game_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_about_game_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="@string/text_activity_good"
+        android:textColor="@color/add_colour_the_most_dark"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:progress="30"
+        android:progressDrawable="@drawable/seek_bar_custom"
+        android:thumb="@drawable/thumb_custom"
+        android:thumbTint="@color/add_colour_the_most_dark"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
+        app:layout_constraintTop_toTopOf="@id/guideline_hor_30" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.passmathart.passgeneratorlord"
+        applicationId "com.calcalcpacksecond.caloriesbox"
         minSdk 26
         targetSdk 32
         versionCode 1
@@ -15,6 +15,8 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.debug
+
+        buildConfigField("String", "API_KEY", API_KEY)
     }
 
     buildTypes {

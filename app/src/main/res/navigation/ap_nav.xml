@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.passmathart.passgeneratorlord.StartFragment"
+        android:name="com.calcalcpacksecond.caloriesbox.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
@@ -17,10 +17,17 @@
             app:exitAnim="@anim/to_left"
             app:popEnterAnim="@anim/from_left"
             app:popExitAnim="@anim/to_right" />
+        <action
+            android:id="@+id/action_startFragment_to_settingsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
-        android:name="com.passmathart.passgeneratorlord.ResultFragment"
+        android:name="com.calcalcpacksecond.caloriesbox.ResultFragment"
         android:label="fragment_result"
         tools:layout="@layout/fragment_result" >
         <action
@@ -32,4 +39,9 @@
             app:popEnterAnim="@anim/from_right"
             app:popExitAnim="@anim/to_left" />
     </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.calcalcpacksecond.caloriesbox.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

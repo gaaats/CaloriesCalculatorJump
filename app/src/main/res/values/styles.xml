@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_settings_style">
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">@font/opensans_extra_bold</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/add_colour_the_most_dark</item>
+        <item name="singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+
+</resources>

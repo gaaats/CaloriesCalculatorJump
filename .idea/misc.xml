@@ -12,6 +12,14 @@
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PassGeneratorGOT/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PassGeneratorGOT/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PassGeneratorGOT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1725" />
+        <entry key="..\:/gambling/CaloriesCalculatorDance/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorDance/app/src/main/res/layout/fragment_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorDance/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorSquat/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorSquat/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorSquat/app/src/main/res/layout/fragment_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorSquat/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/CaloriesCalculatorSquat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/drawable/custom_cornered_btn.xml" value="0.1725" />
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/drawable/custom_prog_bar.xml" value="0.1725" />
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
@@ -19,11 +27,32 @@
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
         <entry key="..\:/gambling/PassGeneratorBatman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1725" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/drawable/progress_seek_bar.xml" value="0.1725" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/drawable/seek_bar_custom.xml" value="0.1855" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/drawable/thumb_custom.xml" value="0.1725" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/layout/fragment_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorHulk/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
         <entry key="..\:/gambling/PassGeneratorLord/app/src/main/res/drawable/custom_cornered_btn.xml" value="0.1725" />
         <entry key="..\:/gambling/PassGeneratorLord/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
         <entry key="..\:/gambling/PassGeneratorLord/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
         <entry key="..\:/gambling/PassGeneratorLord/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
         <entry key="..\:/gambling/PassGeneratorLord/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/drawable/progress_seek_bar.xml" value="0.1855" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/drawable/seek_bar_custom.xml" value="0.1855" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/layout/fragment_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/PassGeneratorThor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+        <entry key="..\:/gambling/calories/pack_2/CaloriesCalculatorBox/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.177" />
+        <entry key="..\:/gambling/calories/pack_2/CaloriesCalculatorBox/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/calories/pack_2/CaloriesCalculatorBox/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/calories/pack_2/CaloriesCalculatorBox/app/src/main/res/layout/fragment_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/gambling/calories/pack_2/CaloriesCalculatorBox/app/src/main/res/layout/fragment_start.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

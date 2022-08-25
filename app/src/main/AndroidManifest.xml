@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.passmathart.passgeneratorlord">
+    package="com.calcalcpacksecond.caloriesbox">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -13,10 +13,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PassGeneratorLord"
+        android:theme="@style/Theme.CaloriesCalculatorBox"
         tools:targetApi="31">
         <activity
-            android:name="com.passmathart.passgeneratorlord.SplashScreenActivity"
+            android:name="com.calcalcpacksecond.caloriesbox.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.passmathart.passgeneratorlord.MainActivity"
+            android:name="com.calcalcpacksecond.caloriesbox.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
 

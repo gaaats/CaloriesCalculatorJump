@@ -1,13 +1,17 @@
 <resources>
-    <string name="app_name">PassGeneratorLord</string>
+    <string name="app_name">Calories Box</string>
     <string name="loading">Loading...</string>
     <string name="here_will_be_your_pass">here will be your password...\n Just press GENERATE</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="generate">generate</string>
+    <string name="settings_text">settings</string>
+    <string name="music">music</string>
+    <string name="text_activity_good">Boxing develops coordination and accuracy of movements, improves reaction, increases endurance, muscle strength, makes a person more collected. Also, training has psycho-emotional functions, beginners are taught to manage their emotions. After the first trainings, a feeling of self-confidence and ones abilities develops. And the benefits of training for the respiratory system and heart are not worth talking about. In addition, in difficult psychological situations, you can quickly get together and stand up for yourself.</string>
+    <string name="about">about activity</string>
 
     <string-array name="diff_levels">
-        <item>SIMPLE</item>
+        <item>EASY</item>
         <item>NORMAL</item>
         <item>HARD</item>
     </string-array>

@@ -72,13 +72,13 @@
         android:id="@+id/lottie_anim_progress"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintDimensionRatio="1,3"
+        app:layout_constraintDimensionRatio="1,2"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_20"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_80"
         app:layout_constraintTop_toBottomOf="@id/img_logo"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/lottie_anim_progress" />
+        app:lottie_rawRes="@raw/splash" />
 
 <!--    <ProgressBar-->
 <!--        android:id="@+id/prog_bar_splash_scrn"-->

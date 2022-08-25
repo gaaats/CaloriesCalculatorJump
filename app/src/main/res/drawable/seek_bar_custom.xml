@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/secondaryProgress">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/add_colour_the_most_dark"
+                android:width="2dp"/>
+
+            <solid android:color="@color/add_colour_not_like_main_1" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/progress_seek_bar"/>
+    </item>
+</layer-list>

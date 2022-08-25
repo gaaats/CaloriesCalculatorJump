@@ -8,10 +8,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main_grey">#d9d9d9</color>
-    <color name="main_colour_">#FDD48A</color>
+
+
+    <color name="main_colour_">#c7cedf</color>
+    <color name="colour_almost_main">#976f4f</color>
+
+    <color name="add_colour_the_most_dark">#002a29</color>
+
+    <color name="add_colour_not_like_main_1">#976f4f</color>
+    <color name="add_colour_not_like_main_2">#4d2a16</color>
+
+
     <color name="main_colour_black">#101116</color>
-    <color name="add_colour_1">#513C2F</color>
+
     <color name="add_colour_2">#1c1207</color>
+    <color name="add_colour_3_text_btn">#F2F2EF</color>
 
     <color name="prog_bar_grey">#4C4848</color>
     <color name="prog_bar_end_colour">#F81313</color>
