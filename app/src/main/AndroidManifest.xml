@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.calcalcpacksecond.caloriesbox">
+    package="com.calcalcpacksecond.caloriesjump">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -13,10 +13,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CaloriesCalculatorBox"
+        android:theme="@style/Theme.CaloriesCalculatorJump"
         tools:targetApi="31">
         <activity
-            android:name="com.calcalcpacksecond.caloriesbox.SplashScreenActivity"
+            android:name="com.calcalcpacksecond.caloriesjump.SplashScreenActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
@@ -26,7 +26,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.calcalcpacksecond.caloriesbox.MainActivity"
+            android:name="com.calcalcpacksecond.caloriesjump.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
 

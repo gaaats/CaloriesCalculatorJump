@@ -1,4 +1,4 @@
-package com.calcalcpacksecond.caloriesbox
+package com.calcalcpacksecond.caloriesjump
 
 import android.content.ClipData
 import android.content.ClipboardManager
@@ -9,9 +9,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
-import com.calcalcpacksecond.caloriesbox.databinding.FragmentResultBinding
+import com.calcalcpacksecond.caloriesjump.databinding.FragmentResultBinding
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -64,7 +65,7 @@ class ResultFragment : Fragment() {
             }
         }
         binding.btnImgExit.setOnClickListener {
-            requireActivity().onBackPressed()
+            initAlertDialog()
         }
 
         super.onViewCreated(view, savedInstanceState)
@@ -120,10 +121,6 @@ class ResultFragment : Fragment() {
 
             textNames = tempResult.name!!
             textResult = tempResult.caloriesPerHour.toString()
-//            result.body()?.forEach {
-//                Log.d("test_tag", "name ${it.name}")
-//                Log.d("test_tag", "name ${it.caloriesPerHour}")
-//            }
         } else {
             Snackbar.make(
                 binding.root,
@@ -143,6 +140,20 @@ class ResultFragment : Fragment() {
         ClipData.newPlainText("Encrypted text", textResult).also {
             clipboardManager.setPrimaryClip(it)
         }
-        Snackbar.make(binding.root, "Shared!", Snackbar.LENGTH_LONG).show()
+        Snackbar.make(binding.root, "Saved!", Snackbar.LENGTH_LONG).show()
+    }
+
+    private fun initAlertDialog() {
+        AlertDialog.Builder(requireContext())
+            .setTitle("Exit")
+            .setMessage("Are you definitely want to log out, the current data will not be saved?")
+            .setPositiveButton("Yes, Exit") { _, _ ->
+                requireActivity().onBackPressed()
+            }
+            .setNegativeButton("Deny") { _, _ ->
+            }
+            .setCancelable(true)
+            .create()
+            .show()
     }
 }

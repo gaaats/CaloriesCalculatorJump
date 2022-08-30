@@ -1,4 +1,4 @@
-package com.calcalcpacksecond.caloriesbox
+package com.calcalcpacksecond.caloriesjump
 
 import okhttp3.Interceptor
 import retrofit2.Response
@@ -10,7 +10,7 @@ interface CaloriesService {
     companion object {
         const val BASE_URL = "https://api.api-ninjas.com/v1/"
         const val API_KEY = BuildConfig.API_KEY
-        const val ACTIVITY = "box"
+        const val ACTIVITY = "jump"
     }
 
     @GET("caloriesburned")

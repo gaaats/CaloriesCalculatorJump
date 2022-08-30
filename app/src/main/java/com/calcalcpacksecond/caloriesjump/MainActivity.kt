@@ -1,10 +1,10 @@
-package com.calcalcpacksecond.caloriesbox
+package com.calcalcpacksecond.caloriesjump
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
-import com.calcalcpacksecond.caloriesbox.databinding.ActivityMainBinding
+import com.calcalcpacksecond.caloriesjump.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

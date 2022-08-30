@@ -1,11 +1,11 @@
-package com.calcalcpacksecond.caloriesbox
+package com.calcalcpacksecond.caloriesjump
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.calcalcpacksecond.caloriesbox.databinding.FragmentSettingsBinding
+import com.calcalcpacksecond.caloriesjump.databinding.FragmentSettingsBinding
 
 class SettingsFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.calcalcpacksecond.caloriesbox
+package com.calcalcpacksecond.caloriesjump
 
 import org.junit.Test
 

@@ -11,12 +11,12 @@
 
 
     <color name="main_colour_">#c7cedf</color>
-    <color name="colour_almost_main">#976f4f</color>
+    <color name="colour_almost_main">#9BAACD</color>
 
-    <color name="add_colour_the_most_dark">#002a29</color>
+    <color name="add_colour_the_most_dark">#041f32</color>
 
-    <color name="add_colour_not_like_main_1">#976f4f</color>
-    <color name="add_colour_not_like_main_2">#4d2a16</color>
+    <color name="add_colour_not_like_main_darker">#3712B8</color>
+    <color name="add_colour_not_like_main_2">#4E76EA</color>
 
 
     <color name="main_colour_black">#101116</color>
